@@ -1,0 +1,220 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 86,
+			"max": [
+				1.2432927576355723e-07,
+				2.2300002574920654,
+				0.11999998241662979
+			],
+			"min": [
+				-0.6300001740455627,
+				-1.0919757187366486e-07,
+				-0.12000004202127457
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 86,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 86,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 86,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 204,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1032,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1032,
+			"byteOffset": 1032
+		},
+		{
+			"buffer": 0,
+			"byteLength": 688,
+			"byteOffset": 2064
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1376,
+			"byteOffset": 2752
+		},
+		{
+			"buffer": 0,
+			"byteLength": 408,
+			"byteOffset": 4128
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 4536,
+			"uri": "slidingdoor03b.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "slidingdoor03.png"
+		},
+		{
+			"uri": "slidingdoor03.dds"
+		},
+		{
+			"uri": "slidingdoor03_normal.png"
+		},
+		{
+			"uri": "slidingdoor03_normal.dds"
+		},
+		{
+			"uri": "slidingdoor03_metal-slidingdoor03_roughness.png"
+		},
+		{
+			"uri": "slidingdoor03_metal-slidingdoor03_roughness.dds"
+		},
+		{
+			"uri": "slidingdoor03_emisson.png"
+		},
+		{
+			"uri": "slidingdoor03_emisson.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"emissiveFactor": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"emissiveTexture": {
+				"index": 3
+			},
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "SlidingDoor03",
+			"normalTexture": {
+				"index": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"index": 2
+				},
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SlidingDoor03",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1,
+					"physicsmode": 1
+				}
+			},
+			"mesh": 0,
+			"name": "SlidingDoor03"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 5
+				}
+			},
+			"source": 4
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 7
+				}
+			},
+			"source": 6
+		}
+	]
+}

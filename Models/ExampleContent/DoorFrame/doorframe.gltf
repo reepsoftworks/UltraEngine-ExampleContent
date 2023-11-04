@@ -1,0 +1,180 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 52,
+			"max": [
+				0.699999988079071,
+				2.299999952316284,
+				0.19999998807907104
+			],
+			"min": [
+				-0.7000000476837158,
+				0.0,
+				-0.2000000923871994
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 52,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 52,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 52,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 90,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 624,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 624,
+			"byteOffset": 624
+		},
+		{
+			"buffer": 0,
+			"byteLength": 416,
+			"byteOffset": 1248
+		},
+		{
+			"buffer": 0,
+			"byteLength": 832,
+			"byteOffset": 1664
+		},
+		{
+			"buffer": 0,
+			"byteLength": 180,
+			"byteOffset": 2496
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 2676,
+			"uri": "doorframe.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "doorframe.png"
+		},
+		{
+			"uri": "doorframe.dds"
+		},
+		{
+			"uri": "doorframe_metal-doorframe_roughness.png"
+		},
+		{
+			"uri": "doorframe_metal-doorframe_roughness.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "DoorFrame",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"index": 1
+				},
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "DoorFrame",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1
+				}
+			},
+			"mesh": 0,
+			"name": "DoorFrame"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		}
+	]
+}

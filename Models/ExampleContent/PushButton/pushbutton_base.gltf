@@ -1,0 +1,219 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 327,
+			"max": [
+				0.1599999964237213,
+				0.1599999964237213,
+				0.03040003776550293
+			],
+			"min": [
+				-0.1599999964237213,
+				-0.1599999964237213,
+				-6.039832101123466e-08
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 327,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 327,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 327,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 906,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3924,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3924,
+			"byteOffset": 3924
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2616,
+			"byteOffset": 7848
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5232,
+			"byteOffset": 10464
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1812,
+			"byteOffset": 15696
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 17508,
+			"uri": "pushbutton_base.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "pushbutton.png"
+		},
+		{
+			"uri": "pushbutton.dds"
+		},
+		{
+			"uri": "pushbutton_normal.png"
+		},
+		{
+			"uri": "pushbutton_normal.dds"
+		},
+		{
+			"uri": "pushbutton_metal-pushbutton_roughness.png"
+		},
+		{
+			"uri": "pushbutton_metal-pushbutton_roughness.dds"
+		},
+		{
+			"uri": "pushbutton_emisson.png"
+		},
+		{
+			"uri": "pushbutton_emisson.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"emissiveFactor": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"emissiveTexture": {
+				"index": 3
+			},
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "PushButton",
+			"normalTexture": {
+				"index": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"index": 2
+				},
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "pushbutton_base",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1
+				}
+			},
+			"mesh": 0,
+			"name": "pushbutton_base"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 5
+				}
+			},
+			"source": 4
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 7
+				}
+			},
+			"source": 6
+		}
+	]
+}

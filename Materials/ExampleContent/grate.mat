@@ -1,0 +1,14 @@
+{
+	"material": {
+		"alphamask": true,
+		"displacement": [
+			0.05000000074505806,
+			-0.02500000037252903
+		],
+		"metallic": 0.0,
+		"roughness": 0.800000011920929,
+		"shaderfamily": "Shaders/PBR.fam",
+		"shadow": true,
+		"texture0": "./grate.dds"
+	}
+}

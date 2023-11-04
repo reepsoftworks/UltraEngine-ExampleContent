@@ -1,0 +1,220 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 318,
+			"max": [
+				1.1200000047683716,
+				0.21279999613761902,
+				1.1200000047683716
+			],
+			"min": [
+				-1.1200000047683716,
+				-3.952493296731706e-24,
+				-1.1200000047683716
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 318,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 318,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 318,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 882,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3816,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3816,
+			"byteOffset": 3816
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2544,
+			"byteOffset": 7632
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5088,
+			"byteOffset": 10176
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1764,
+			"byteOffset": 15264
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 17028,
+			"uri": "weightedbutton_base.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "weightedbutton.png"
+		},
+		{
+			"uri": "weightedbutton.dds"
+		},
+		{
+			"uri": "pushbutton_normal.png"
+		},
+		{
+			"uri": "pushbutton_normal.dds"
+		},
+		{
+			"uri": "pushbutton_metal-pushbutton_roughness.png"
+		},
+		{
+			"uri": "pushbutton_metal-pushbutton_roughness.dds"
+		},
+		{
+			"uri": "weightedbutton_emisson.png"
+		},
+		{
+			"uri": "weightedbutton_emisson.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"emissiveFactor": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"emissiveTexture": {
+				"index": 3
+			},
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "WeightedButton",
+			"normalTexture": {
+				"index": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"index": 2
+				},
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "weightedbutton_base",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1,
+					"physicsmode": 1
+				}
+			},
+			"mesh": 0,
+			"name": "weightedbutton_base"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 5
+				}
+			},
+			"source": 4
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 7
+				}
+			},
+			"source": 6
+		}
+	]
+}

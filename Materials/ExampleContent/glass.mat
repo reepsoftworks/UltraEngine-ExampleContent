@@ -1,0 +1,19 @@
+{
+	"material": {
+		"color": [
+			1.0,
+			1.0,
+			1.0,
+			0.501960813999176
+		],
+		"displacement": [
+			0.05000000074505806,
+			-0.02500000037252903
+		],
+		"metallic": 1.0,
+		"roughness": 0.5,
+		"shaderfamily": "Shaders/PBR.fam",
+		"shadow": true,
+		"transparent": true
+	}
+}

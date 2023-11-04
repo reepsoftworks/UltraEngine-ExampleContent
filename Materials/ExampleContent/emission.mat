@@ -1,0 +1,23 @@
+{
+	"material": {
+		"color": [
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"displacement": [
+			0.05000000074505806,
+			-0.02500000037252903
+		],
+		"emission": [
+			0.8549020290374756,
+			0.250980406999588,
+			0.250980406999588
+		],
+		"metallic": 0.0,
+		"roughness": 1.0,
+		"shaderfamily": "Shaders/PBR.fam",
+		"shadow": true
+	}
+}

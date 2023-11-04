@@ -1,0 +1,181 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 768,
+			"max": [
+				1.2699999809265137,
+				2.2300024032592773,
+				0.06966684758663177
+			],
+			"min": [
+				0.00999993085861206,
+				0.0,
+				-0.06966650485992432
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 768,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 768,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 768,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 2184,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 9216,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9216,
+			"byteOffset": 9216
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6144,
+			"byteOffset": 18432
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12288,
+			"byteOffset": 24576
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4368,
+			"byteOffset": 36864
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 41232,
+			"uri": "simpledoor.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "sinpledoor.png"
+		},
+		{
+			"uri": "sinpledoor.dds"
+		},
+		{
+			"uri": "simpledoor_metal-simpledoor_roughness.png"
+		},
+		{
+			"uri": "simpledoor_metal-simpledoor_roughness.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "SimpleDoor",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"index": 1
+				},
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SimpleDoor",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1,
+					"physicsmode": 1
+				}
+			},
+			"mesh": 0,
+			"name": "SimpleDoor"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		}
+	]
+}

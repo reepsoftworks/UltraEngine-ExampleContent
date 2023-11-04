@@ -1,0 +1,181 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 2310,
+			"max": [
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645
+			],
+			"min": [
+				-0.4000000059604645,
+				-0.4000000059604645,
+				-0.4000000059604645
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 2310,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 2310,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 2310,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 5016,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Ultra Engine glTF Exporter",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 27720,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27720,
+			"byteOffset": 27720
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18480,
+			"byteOffset": 55440
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36960,
+			"byteOffset": 73920
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10032,
+			"byteOffset": 110880
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 120912,
+			"uri": "weightedbox.bin"
+		}
+	],
+	"extensionsUsed": [
+		"MSFT_texture_dds"
+	],
+	"images": [
+		{
+			"uri": "weightedbox.png"
+		},
+		{
+			"uri": "weightedbox.dds"
+		},
+		{
+			"uri": "weightedbox_metal-weightedbox_roughness.png"
+		},
+		{
+			"uri": "weightedbox_metal-weightedbox_roughness.dds"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": false,
+			"extras": {
+				"ultra": {
+					"displacement": [
+						0.10000000149011612,
+						0.0
+					],
+					"shaderfamily": "Shaders/PBR.fam",
+					"shadow": true
+				}
+			},
+			"name": "WeightedBox",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0.0,
+				"metallicRoughnessTexture": {
+					"index": 1
+				},
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "WeightedBox",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 3,
+						"TEXCOORD_0": 2
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extras": {
+				"ultra": {
+					"collisiontype": 1,
+					"physicsmode": 1
+				}
+			},
+			"mesh": 0,
+			"name": "WeightedBox"
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 1
+				}
+			},
+			"source": 0
+		},
+		{
+			"extensions": {
+				"MSFT_texture_dds": {
+					"source": 3
+				}
+			},
+			"source": 2
+		}
+	]
+}
