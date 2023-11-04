@@ -1,0 +1,14 @@
+{
+	"material": {
+		"displacement": [
+			0.05000000074505806,
+			-0.02500000037252903
+		],
+		"metallic": 0.0,
+		"roughness": 1.0,
+		"shaderfamily": "Shaders/PBR.fam",
+		"shadow": true,
+		"texture0": "./grid05.dds",
+		"texture1": "./grid_normal.dds"
+	}
+}

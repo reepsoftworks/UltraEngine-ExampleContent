@@ -1,0 +1,8 @@
+{
+	"material": {
+		"metallic": 0.0,
+		"roughness": 0.75,
+		"shaderfamily": "Shaders/PBR.fam",
+		"texture0": "./wall07.dds"
+	}
+}
