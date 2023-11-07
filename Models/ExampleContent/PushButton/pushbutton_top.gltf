@@ -147,7 +147,7 @@
 	],
 	"meshes": [
 		{
-			"name": "pushbutton_top",
+			"name": "PushButtonTop",
 			"primitives": [
 				{
 					"attributes": {
@@ -167,11 +167,12 @@
 		{
 			"extras": {
 				"ultra": {
-					"collisiontype": 1
+					"collisiontype": 1,
+					"physicsmode": 1
 				}
 			},
 			"mesh": 0,
-			"name": "pushbutton_top"
+			"name": "PushButtonTop"
 		}
 	],
 	"scene": 0,

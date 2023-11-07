@@ -147,7 +147,7 @@
 	],
 	"meshes": [
 		{
-			"name": "weightedbutton_top",
+			"name": "WeightedButtonTop",
 			"primitives": [
 				{
 					"attributes": {
@@ -172,7 +172,7 @@
 				}
 			},
 			"mesh": 0,
-			"name": "weightedbutton_top"
+			"name": "WeightedButtonTop"
 		}
 	],
 	"scene": 0,
